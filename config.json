@@ -1,0 +1,13 @@
+{
+    "database":{
+        "host":"",
+        "port":"",
+        "username":"",
+        "password":"",
+        "dbname":""
+    },
+    "ports":{
+        "dogs":"5000",
+        "storage":"5001"
+    }
+}
