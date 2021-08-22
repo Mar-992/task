@@ -9,7 +9,7 @@ api.use(express.json());
 
 api.use(upload())
 
-api.use('/api/storage', router);
+api.use('/api/storage', router)
 
 api.listen(config.get('ports').storage, err => {
     if(err) {

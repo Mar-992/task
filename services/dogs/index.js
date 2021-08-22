@@ -9,7 +9,7 @@ api.use(express.json());
 
 api.use('/api/breed', router)
 
-api.listen(config.get('posts').dogs, err => {
+api.listen(config.get('ports').dogs, err => {
     if(err){
         return console.log('Error while starting dog service: ', err);
     }
