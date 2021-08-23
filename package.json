@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-dogs": "nodemon services/dogs/index.js",
-    "start-storage":"nodemon services/storage/index.js",
-    "start":"concurrently \"npm run start-dogs\" \"npm run start-storage\" "
+    "start-storage": "nodemon services/storage/index.js",
+    "start": "concurrently \"npm run start-dogs\" \"npm run start-storage\" "
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "fs": "^0.0.1-security",
     "mongoose": "^5.13.7",
     "nodemon": "^2.0.12",
-    "proxy": "^1.0.2"
+    "proxy": "^1.0.2",
+    "uuid": "^8.3.2"
   }
 }
