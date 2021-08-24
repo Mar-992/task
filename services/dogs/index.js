@@ -1,3 +1,4 @@
+require('../../db')
 const express = require('express');
 const api = express();
 const router = require('./router')
